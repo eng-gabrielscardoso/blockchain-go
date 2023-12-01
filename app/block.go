@@ -1,0 +1,16 @@
+package app
+
+import "time"
+
+////////////////////////////////////////////////////////////////////////////////
+// STRUCTS
+////////////////////////////////////////////////////////////////////////////////
+
+// This struct represents a block from a blockchain
+type Block struct {
+	data         map[string]interface{}
+	hash         string
+	previousHash string
+	timestamp    time.Time
+	proofOfWork  int
+}
