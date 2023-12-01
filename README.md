@@ -8,6 +8,8 @@
 
 1. You must have in your local machine the necessary SDK for Golang since we don't finished the containerisation of project
 2. Clone the repository using Git, GH CLI or using Github web
+3. Install deps using `go mod download`
+4. Start building something incredible 🌟
 
 ## Usage
 
